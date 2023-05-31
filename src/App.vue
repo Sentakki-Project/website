@@ -2,6 +2,7 @@
 import Name from './components/Name.vue';
 import History from './components/History.vue';
 import Info from "@/components/Info.vue";
+import Stack from "@/components/Stack.vue";
 const scrollMain = () => {
   const mainSection = document.getElementById('start');
   if (mainSection) {
@@ -23,6 +24,9 @@ const scrollMain = () => {
     </div>
     <div class="full-div time">
       <History/>
+    </div>
+    <div class="full-div">
+      <Stack/>
     </div>
 
   </div>
@@ -64,7 +68,6 @@ const scrollMain = () => {
   top: 0;
   left: 0;
   width: 100%;
-  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +88,7 @@ const scrollMain = () => {
 @media (min-width: 768px) {
   .full-div {
     padding: 2rem;
+    height: 85vh;
   }
   .time{
     margin-left: 20%;

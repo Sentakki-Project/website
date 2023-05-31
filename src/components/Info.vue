@@ -6,10 +6,10 @@
   <div class="info-container">
     <h1>Czym jest projekt Sentakki?</h1>
     <p>
-      Nazwa Sentakki wywodzi się z języka japońskiego (洗濯機) i oznacza pralnie lub pralnie.
+      Nazwa Sentakki wywodzi się z języka japońskiego (洗濯機) i oznacza pranie lub pralnie.
       Naszym głównym celem jest ułatwienie codziennego życia studentów i personelu akademickiego
       poprzez dostarczanie efektywnych narzędzi do zarządzania pralniami w akademikach.
-      Nasza aplikacja Sentakki umożliwia studentom łatwe rezerwowanie pralni w dogodnym dla nich czasie. Dzięki niej użytkownicy mogą sprawdzić dostępność pralek.
+      Nasza aplikacja umożliwia studentom łatwe rezerwowanie pralni w dogodnym dla nich czasie a także możliwość sprawdzenia dostępność pralek.
       Jedną z głównych zalet naszej aplikacji jest możliwość płatności online. Użytkownicy mogą dokonywać płatności za pranie bezpośrednio z aplikacji.
     </p>
   </div>
