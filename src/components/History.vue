@@ -53,14 +53,8 @@ import SupportIcon from './icons/IconSupport.vue'
 h1 {
   font-weight: 500;
   font-size: 3.6rem;
-  top: -10px;
-  color:#ade5fe;
 }
 
-
-.greetings h1 {
-  text-align: center;
-}
 
 @media (max-width: 767px) {
   h1 {
