@@ -8,6 +8,7 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
+  <h1>Oś czasu</h1>
   <Item>
     <template #icon>
       <DocumentationIcon />
@@ -48,3 +49,22 @@ import SupportIcon from './icons/IconSupport.vue'
     Prezentacja projektu
   </Item>
 </template>
+<style scoped>
+h1 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  top: -10px;
+  color:#ade5fe;
+}
+
+
+.greetings h1 {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.1rem;
+  }
+}
+</style>

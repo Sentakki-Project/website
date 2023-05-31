@@ -7,47 +7,47 @@
 <script setup>
 import {ref, onMounted} from 'vue';
 
-const msg = ref('');
+const msg = ref('...');
 
-msg.value = 'Sentakki Project';
+msg.value = 'entakki Project';
 
-const displayedMsg = ref('');
-
-onMounted(() => {
+const displayedMsg = ref('S');
+const startTypingAnimation = () => {
   let currentIndex = 0;
-
   const typingInterval = setInterval(() => {
     displayedMsg.value += msg.value[currentIndex];
     currentIndex++;
 
     if (currentIndex === msg.value.length) {
       clearInterval(typingInterval);
+      setTimeout(() => {
+        displayedMsg.value = 'S';
+        startTypingAnimation();
+      }, 4500);
     }
   }, 130);
+};
+onMounted(() => {
+  startTypingAnimation();
 });
 </script>
 
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   top: -10px;
   color:#ade5fe;
 }
 
-h3 {
-  font-size: 1.2rem;
-}
 
-.greetings h1,
-.greetings h3 {
+.greetings h1 {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.1rem;
   }
 }
 </style>

@@ -4,7 +4,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
+  color: #ade5fe;
   font-weight: normal;
 }
 
@@ -28,8 +28,10 @@ a,
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 0 2rem;
   }
 }
