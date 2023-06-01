@@ -3,6 +3,8 @@ import Name from './components/Name.vue';
 import History from './components/History.vue';
 import Info from "@/components/Info.vue";
 import Stack from "@/components/Stack.vue";
+import Chart from "@/components/Chart.vue";
+import ChartDescription from "@/components/ChartDescription.vue";
 const scrollMain = () => {
   const mainSection = document.getElementById('start');
   if (mainSection) {
@@ -25,9 +27,18 @@ const scrollMain = () => {
     <div class="full-div time">
       <History/>
     </div>
+    <div class="chart-container">
+      <div class="chart-description">
+        <ChartDescription />
+      </div>
+      <div class="chart">
+        <Chart />
+      </div>
+    </div>
     <div class="full-div">
       <Stack/>
     </div>
+
 
   </div>
   <div class="scroll-to-top" @click="scrollMain">
@@ -39,10 +50,7 @@ const scrollMain = () => {
 </template>
 
 <style scoped>
-.content{
-  display: flex;
-  flex-direction: column;
-}
+
 .scroll-to-top {
   position: fixed;
   bottom: 2rem;
@@ -63,7 +71,22 @@ const scrollMain = () => {
   height: 20px;
   fill: currentColor;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.chart-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
 
+.chart-description {
+  margin-right: 12rem;
+}
 .full-div {
   top: 0;
   left: 0;
