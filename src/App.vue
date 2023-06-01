@@ -5,6 +5,7 @@ import Info from "@/components/Info.vue";
 import Stack from "@/components/Stack.vue";
 import Chart from "@/components/Chart.vue";
 import ChartDescription from "@/components/ChartDescription.vue";
+import Team from "@/components/Team.vue";
 const scrollMain = () => {
   const mainSection = document.getElementById('start');
   if (mainSection) {
@@ -38,8 +39,9 @@ const scrollMain = () => {
     <div class="full-div">
       <Stack/>
     </div>
-
-
+    <div class="full-div">
+      <Team/>
+    </div>
   </div>
   <div class="scroll-to-top" @click="scrollMain">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up">
@@ -122,6 +124,7 @@ const scrollMain = () => {
     max-width: 500px;
   }
   .chart-container {
+    height: 85vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
