@@ -4,7 +4,7 @@
     <p>
       Przeprowadziliśmy ankietę wśród studentek i studenów mieszkających w toruńskich akademikach.
       W ankiecie udział wzięło 87 osób. Ankieta zawierała pytanie. "Czy chciałbyś/chciałabyś system rezerwacji pralek w akademikach
-      poprzez aplikację mobilną lub internetową?". Ponad 87.5% respondentów chciałaby skorzystać z naszej aplikacji!"
+      poprzez aplikację mobilną lub internetową?". Ponad 87.5% respondentów chciałaby skorzystać z naszej aplikacji!
     </p>
   </div>
 </template>

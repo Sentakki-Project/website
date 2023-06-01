@@ -77,6 +77,7 @@ const scrollMain = () => {
 }
 .chart-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   justify-content: center;
@@ -85,7 +86,7 @@ const scrollMain = () => {
 }
 
 .chart-description {
-  margin-right: 12rem;
+  margin-bottom: 1rem;
 }
 .full-div {
   top: 0;
@@ -113,11 +114,21 @@ const scrollMain = () => {
     padding: 2rem;
     height: 85vh;
   }
+
   .time{
     margin-left: 20%;
   }
   .logo {
     max-width: 500px;
+  }
+  .chart-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .chart-description {
+    margin-bottom: 0;
+    margin-right: 2rem;
   }
 }
 
