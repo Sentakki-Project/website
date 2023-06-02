@@ -17,7 +17,7 @@ const scrollMain = () => {
 <template>
   <div class="content">
     <div class="full-div" id="start">
-      <img alt="Vue logo" class="logo" src="./assets/logo.png"/>
+      <img alt="Vue logo" class="logo" src="/assets/logo.png"/>
       <div class="wrapper">
         <Name/>
       </div>

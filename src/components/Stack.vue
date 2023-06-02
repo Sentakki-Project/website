@@ -1,14 +1,14 @@
 <template>
   <h1>Jakie technologie wykorzystaliśmy?</h1>
   <div className="technologies">
-    <img src="../assets/technology/ror-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/react-native-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/vue-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/docker-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/figma-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/heroku-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/github-logo.png" alt="cos nie tak"/>
-    <img src="../assets/technology/linear-logo.png" alt="cos nie tak"/>
+    <img src="/assets/technology/ror-logo.png" alt="Ruby on Rails logo"/>
+    <img src="/assets/technology/react-native-logo.png" alt="React native logo"/>
+    <img src="/assets/technology/vue-logo.png" alt="Vue logo"/>
+    <img src="/assets/technology/docker-logo.png" alt="Docker logo"/>
+    <img src="/assets/technology/figma-logo.png" alt="Figma logo"/>
+    <img src="/assets/technology/heroku-logo.png" alt="Heroku logo"/>
+    <img src="/assets/technology/github-logo.png" alt="Github logo"/>
+    <img src="/assets/technology/linear-logo.png" alt="Linear logo"/>
   </div>
 
 </template>
