@@ -1,14 +1,14 @@
 <template>
   <h1>Jakie technologie wykorzystaliśmy?</h1>
   <div className="technologies">
-    <img src="/assets/technology/ror-logo.png" alt="Ruby on Rails logo"/>
-    <img src="/assets/technology/react-native-logo.png" alt="React native logo"/>
-    <img src="/assets/technology/vue-logo.png" alt="Vue logo"/>
-    <img src="/assets/technology/docker-logo.png" alt="Docker logo"/>
-    <img src="/assets/technology/figma-logo.png" alt="Figma logo"/>
-    <img src="/assets/technology/heroku-logo.png" alt="Heroku logo"/>
-    <img src="/assets/technology/github-logo.png" alt="Github logo"/>
-    <img src="/assets/technology/linear-logo.png" alt="Linear logo"/>
+    <img src="../../public/assets/technology/ror-logo.png" alt="Ruby on Rails logo"/>
+    <img src="../../public/assets/technology/react-native-logo.png" alt="React native logo"/>
+    <img src="../../public/assets/technology/vue-logo.png" alt="Vue logo"/>
+    <img src="../../public/assets/technology/docker-logo.png" alt="Docker logo"/>
+    <img src="../../public/assets/technology/figma-logo.png" alt="Figma logo"/>
+    <img src="../../public/assets/technology/heroku-logo.png" alt="Heroku logo"/>
+    <img src="../../public/assets/technology/github-logo.png" alt="Github logo"/>
+    <img src="../../public/assets/technology/linear-logo.png" alt="Linear logo"/>
   </div>
 
 </template>
@@ -43,3 +43,5 @@ h1{
   }
 }
 </style>
+<script setup>
+</script>
