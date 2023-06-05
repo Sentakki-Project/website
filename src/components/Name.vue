@@ -44,7 +44,11 @@ h1 {
 .greetings h1 {
   text-align: center;
 }
-
+@media (prefers-color-scheme: light){
+  h1{
+    color:#555555;
+  }
+}
 @media (max-width: 767px) {
   h1 {
     font-size: 2.1rem;

@@ -7,7 +7,11 @@
   color: #ade5fe;
   font-weight: normal;
 }
-
+@media (prefers-color-scheme: light){
+    #app{
+      color:#555555;
+    }
+}
 a,
 .green {
   text-decoration: none;
