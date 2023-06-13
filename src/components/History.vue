@@ -14,7 +14,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Listopad 2022</template>
-    Pomysł Projektu
+    Pomysł projektu i konsultacje z użytkownikami końcowymi.
   </Item>
 
   <Item>
@@ -22,7 +22,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <ToolingIcon />
     </template>
     <template #heading>Grudzień 2022</template>
-    Stworzenie Architektury Aplikacji, dobranie technologii oraz stworzenie makiet w Figmie
+    Stworzenie architektury aplikacji, dobranie technologii oraz stworzenie makiet w Figmie.
   </Item>
 
   <Item>
@@ -30,7 +30,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <EcosystemIcon />
     </template>
     <template #heading>Styczeń - Marzec 2023</template>
-    Stworzenie backendu aplikacji w Ruby On Rails
+    Stworzenie backendu aplikacji w Ruby On Rails oraz integracja z USOS API.
   </Item>
 
   <Item>
@@ -38,7 +38,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <CommunityIcon />
     </template>
     <template #heading>Marzec - Czerwiec 2023</template>
-    Stworzenie aplikacji mobilnej w React Native
+    Stworzenie aplikacji mobilnej w React Native oraz integracja z systemem Stripe.
   </Item>
 
   <Item>
@@ -46,7 +46,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <SupportIcon />
     </template>
     <template #heading>Czerwiec 2023</template>
-    Prezentacja projektu
+    Ostatnie szlify i prezentacja projektu.
   </Item>
 </template>
 <style scoped>
