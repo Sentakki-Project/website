@@ -7,6 +7,12 @@
   color: #ade5fe;
   font-weight: normal;
 }
+h1{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
 @media (prefers-color-scheme: light){
     #app{
       color:#555555;

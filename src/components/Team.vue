@@ -32,6 +32,7 @@ h2 {
 }
 p {
   font-weight: 500;
+  text-align: center;
 }
 .team-container {
   display: flex;

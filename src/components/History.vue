@@ -53,6 +53,7 @@ import SupportIcon from './icons/IconSupport.vue'
 h1 {
   font-weight: 500;
   font-size: 3.6rem;
+  text-align: left;
 }
 
 
