@@ -7,8 +7,8 @@
     <img src="../../public/assets/technology/docker-logo.png" alt="Docker logo"/>
     <img src="../../public/assets/technology/figma-logo.png" alt="Figma logo"/>
     <img src="../../public/assets/technology/heroku-logo.png" alt="Heroku logo"/>
-    <img src="../../public/assets/technology/github-logo.png" alt="Github logo"/>
-    <img src="../../public/assets/technology/linear-logo.png" alt="Linear logo"/>
+    <img src="../../public/assets/technology/firebase-logo.png" alt="Firebase logo"/>
+    <img src="../../public/assets/technology/postgresql-logo.png" alt="Posgresql logo"/>
   </div>
 
 </template>

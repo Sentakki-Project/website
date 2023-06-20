@@ -3,22 +3,22 @@
     <h1>Nasz Zespół</h1>
     <div class="person-container">
       <div class="person">
-        <img src="../../public/assets/people/raccon.jpg"/>
+        <img src="../../public/assets/people/racoon.png"/>
         <h2>Mikołaj Czurłowski</h2>
         <p>Szop Bakuś</p>
       </div>
       <div class="person">
-        <img src="../../public/assets/people/raccon-2.jpg"/>
+        <img src="../../public/assets/people/racoon-3.png"/>
         <h2>Damian Maza</h2>
         <p>Szop Frontaś</p>
       </div>
       <div class="person">
-        <img src="../../public/assets/people/raccon-3.jpg"/>
+        <img src="../../public/assets/people/racoon-2.png"/>
         <h2>Mateusz Różański</h2>
         <p>Szop Fulstaś</p>
       </div>
       <div class="person">
-        <img src="../../public/assets/people/raccon-4.jpg"/>
+        <img src="../../public/assets/people/racoon-1.png"/>
         <h2>Agnieszka Piszcz</h2>
         <p>Szop Uiksiś</p>
       </div>
@@ -64,7 +64,6 @@ p {
 img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
 }
 
 h1 {

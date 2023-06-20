@@ -2,11 +2,7 @@
   <div>
     <h1>Zapytaliśmy studentów...</h1>
     <p>
-      Przeprowadziliśmy ankietę wśród studentek i studenów mieszkających w toruńskich akademikach.
-      W ankiecie udział wzięło 87 osób. Ankieta zawierała pytanie. "Czy chciałbyś/chciałabyś system rezerwacji pralek w akademikach
-      poprzez aplikację mobilną lub internetową?". Ponad 87.5% respondentów chciałaby skorzystać z naszej aplikacji!
-      Porozmawialiśmy również z pracownikami domów studenckich,
-      mają pewne obawy, ale jest konsensus, że aplikacja sentakki byłaby usprawnieniem dla studentów.
+      87% ankiteowanych chciałoby zamawiać pranie w naszej aplikacji.
     </p>
   </div>
 </template>
