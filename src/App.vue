@@ -14,6 +14,7 @@ import ChartThird from "@/components/ChartThird.vue";
 import ChartDescriptionThird from "@/components/ChartDescriptionThird.vue";
 import ChartDescriptionFourth from "@/components/ChartDescriptionFourth.vue";
 import ChartFourth from "@/components/ChartFourth.vue";
+import Plans from "@/components/Plans.vue";
 const scrollMain = () => {
   const mainSection = document.getElementById('start');
   if (mainSection) {
@@ -76,7 +77,9 @@ const scrollMain = () => {
         <ChartFourth />
       </div>
     </div>
-
+    <div class="full-div">
+      <Plans/>
+    </div>
     <div class="full-div">
       <Stack/>
     </div>
