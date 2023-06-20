@@ -5,22 +5,22 @@
       <div class="person">
         <img src="../../public/assets/people/racoon.png"/>
         <h2>Mikołaj Czurłowski</h2>
-        <p>Szop Bakuś</p>
+        <p>Backend Developer</p>
       </div>
       <div class="person">
         <img src="../../public/assets/people/racoon-3.png"/>
         <h2>Damian Maza</h2>
-        <p>Szop Frontaś</p>
+        <p>Frontend Developer</p>
       </div>
       <div class="person">
         <img src="../../public/assets/people/racoon-2.png"/>
         <h2>Mateusz Różański</h2>
-        <p>Szop Fulstaś</p>
+        <p>Fullstack Developer</p>
       </div>
       <div class="person">
         <img src="../../public/assets/people/racoon-1.png"/>
         <h2>Agnieszka Piszcz</h2>
-        <p>Szop Uiksiś</p>
+        <p>UI/UX Developer</p>
       </div>
     </div>
   </div>
