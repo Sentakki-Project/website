@@ -6,6 +6,14 @@ import Stack from "@/components/Stack.vue";
 import Chart from "@/components/Chart.vue";
 import ChartDescription from "@/components/ChartDescription.vue";
 import Team from "@/components/Team.vue";
+import ChartFirst from "@/components/ChartFirst.vue";
+import ChartDescriptionFirst from "@/components/ChartDescriptionFirst.vue";
+import CharDescriptionSecond from "@/components/ChartDescriptionSecond.vue";
+import ChartSecond from "@/components/ChartSecond.vue";
+import ChartThird from "@/components/ChartThird.vue";
+import ChartDescriptionThird from "@/components/ChartDescriptionThird.vue";
+import ChartDescriptionFourth from "@/components/ChartDescriptionFourth.vue";
+import ChartFourth from "@/components/ChartFourth.vue";
 const scrollMain = () => {
   const mainSection = document.getElementById('start');
   if (mainSection) {
@@ -36,6 +44,39 @@ const scrollMain = () => {
         <Chart />
       </div>
     </div>
+    <div class="chart-container">
+      <div class="chart-description">
+        <ChartDescriptionFirst />
+      </div>
+      <div class="chart">
+        <ChartFirst />
+      </div>
+    </div>
+    <div class="chart-container">
+      <div class="chart-description">
+        <CharDescriptionSecond />
+      </div>
+      <div class="chart">
+        <ChartSecond />
+      </div>
+    </div>
+    <div class="chart-container">
+      <div class="chart-description">
+        <ChartDescriptionThird />
+      </div>
+      <div class="chart">
+        <ChartThird />
+      </div>
+    </div>
+    <div class="chart-container">
+      <div class="chart-description">
+        <ChartDescriptionFourth />
+      </div>
+      <div class="chart">
+        <ChartFourth />
+      </div>
+    </div>
+
     <div class="full-div">
       <Stack/>
     </div>
@@ -112,6 +153,9 @@ const scrollMain = () => {
 }
 
 @media (min-width: 768px) {
+  #header {
+    font-size: 2.1rem;
+  }
   .full-div {
     padding: 2rem;
     height: 85vh;
